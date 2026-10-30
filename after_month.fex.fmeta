@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" type="FexFile">
+    <properties size="2">
+        <entry key="LastDescribed" value="1793353785453"/>
+        <entry key="tool" value="infoAssist,chart"/>
+    </properties>
+    <extendedProperties _jt="HashMap"/>
+    <nlsValues _jt="HashMap">
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="after_month"/>
+            </value>
+        </entry>
+    </nlsValues>
+    <fexParameters _jt="ArrayList" size="1">
+        <item _jt="IBRFexParameter" amperFormat="YYMDm" datadomain="TIME_DATE_MONTH_COMPONENT" description="Sale Year/Month" index="0" multiselect="false" parent="" parmname="DF_WH_TIME_DATE_MONTH_COMPONENT" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="16" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Sale Year/Month" fieldName="wf_retail_lite.WF_RETAIL_TIME_SALES.TIME_DATE_MONTH_COMPONENT" format="YYMDm" idxInChain="-1" inForm="true" isDefault="true" max="0.0" min="0.0" name="DF_WH_TIME_DATE_MONTH_COMPONENT" noSelection="false" operation="" parent="" proc="" sortFields="" sortOrder="" strDef="_FOC_NULL" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                <values class="java.util.LinkedHashMap"/>
+                <dynValues class="com.ibi.wfrs.IBFSWFDescribe$DynamicAmper" displayField="" field="wf_retail_lite.WF_RETAIL_TIME_SALES.TIME_DATE_MONTH_COMPONENT" file="retail_samples/wf_retail_lite">
+                    <type class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                </dynValues>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="COMPARATOR"/>
+                        <value _jt="string" value="GT"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="FIELDNAME"/>
+                        <value _jt="string" value="wf_retail_lite.WF_RETAIL_TIME_SALES.TIME_DATE_MONTH_COMPONENT"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="METADATA"/>
+                        <value _jt="string" value="{&quot;controltype&quot;:&quot;calendar&quot;}"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="quotedstring"/>
+                        <value _jt="string" value="YES"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+    </fexParameters>
+</rootObject>
