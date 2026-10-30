@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" rsName="EDASERVE" type="FexFile">
+    <properties size="2">
+        <entry key="LastDescribed" value="1793350053707"/>
+        <entry key="tool" value="editor"/>
+    </properties>
+    <extendedProperties _jt="HashMap">
+        <entry>
+            <key _jt="string" value="CopiedFrom"/>
+            <value _jt="string" value="564609b3_ac8f_43e8_94b7_79c7bf8357f8_1978316773"/>
+        </entry>
+    </extendedProperties>
+    <nlsValues _jt="HashMap">
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="926_IS_MISSING"/>
+            </value>
+        </entry>
+    </nlsValues>
+    <fexParameters _jt="ArrayList" size="0"/>
+</rootObject>
